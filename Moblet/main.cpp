@@ -15,7 +15,7 @@ public:
 	 */
 	MyMoblet()
 	{
-		printf("Press zero or back to exit\n");
+		printf("Press back to exit\n");
 	}
 
 	/**
@@ -23,7 +23,7 @@ public:
 	 */
 	void keyPressEvent(int keyCode, int nativeCode)
 	{
-		if (MAK_BACK == keyCode || MAK_0 == keyCode)
+		if (MAK_BACK == keyCode)
 		{
 			// Call close to exit the application.
 			close();
