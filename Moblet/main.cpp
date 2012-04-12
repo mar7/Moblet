@@ -15,7 +15,7 @@ public:
 	 */
 	MyMoblet()
 	{
-		printf("Press back to exit\n");
+		printf("Press back to exit the moblet\n");
 	}
 
 	/**
