@@ -23,7 +23,7 @@ public:
 	 */
 	void keyPressEvent(int keyCode, int nativeCode)
 	{
-		if (MAK_BACK == keyCode)
+		if (MAK_BACK == keyCode || MAK_ZERO == keyCode)
 		{
 			// Call close to exit the application.
 			close();
